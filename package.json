@@ -1,7 +1,7 @@
 {
   "name": "vue-test-roistat",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -41,7 +41,9 @@
     "parserOptions": {
       "ecmaVersion": 2020
     },
-    "rules": {}
+    "rules": {
+      "linebreak-style": ["error", "windows"]
+    }
   },
   "browserslist": [
     "> 1%",

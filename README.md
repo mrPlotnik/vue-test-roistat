@@ -1,24 +1,33 @@
-# vue-test-roistat
+# Управление контактами
 
-## Project setup
-```
-npm install
-```
+## Описание
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Vue 3, Vue CLI и TypeScript.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Технические особенности
 
-### Lints and fixes files
-```
-npm run lint
-```
+**Vue CLI + TypeScript**: Проект создан для улучшения типизации и структурирования кода.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+**Хранение данных**: Данные о контактах сохраняются в localStorage для сохранения состояния приложения.
+
+**Валидация формы**: Добавлена валидация для обязательных полей и формата email.
+
+## Стилизация
+Минимальная стилизация с использованием для улучшения внешнего вида приложения.
+
+Используется препроцессор CSS SCSS для удобства разработки и поддержки стилей.
+
+## Дополнительные возможности
+Используются Vue Transition для плавного появления модального окна.
+
+## Руководство по запуску
+
+1. **Установка зависимостей**:
+   ```bash
+   npm install
+2. **Запуск в режиме разработки**:
+   ```bash
+   npm run serve
+3. **Сборка проекта для production**:
+   ```bash
+   npm run build
